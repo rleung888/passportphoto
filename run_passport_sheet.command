@@ -2,7 +2,8 @@
 
 set -euo pipefail
 
-WORKDIR="/Users/raymondleung/Documents/New project 2"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+WORKDIR="$SCRIPT_DIR"
 SCRIPT_PATH="$WORKDIR/make_4x6_sheet.swift"
 
 cd "$WORKDIR"
