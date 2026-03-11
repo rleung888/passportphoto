@@ -1,0 +1,13 @@
+.DS_Store
+
+# User photo inputs and generated outputs
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+*.heic
+*.HEIC
+*.png
+*.PNG
+*.webp
+*.WEBP
